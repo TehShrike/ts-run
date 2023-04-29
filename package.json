@@ -1,5 +1,5 @@
 {
-  "name": "ts-run",
+  "name": "@tehshrike/ts-run",
   "type": "module",
   "version": "1.0.0",
   "description": "Build Typescript with esbuild + execute with node",
