@@ -1,27 +1,29 @@
 {
-  "name": "@tehshrike/ts-run",
-  "type": "module",
-  "version": "1.0.1",
-  "description": "Build Typescript with esbuild + execute with node",
-  "bin": "node index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified :-x\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TehShrike/ts-run.git"
-  },
-  "keywords": [
-    "typescript",
-    "ts"
-  ],
-  "author": "TehShrike",
-  "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/TehShrike/ts-run/issues"
-  },
-  "homepage": "https://github.com/TehShrike/ts-run#readme",
-  "dependencies": {
-    "esbuild": "^0.17.18"
-  }
+	"name": "@tehshrike/ts-run",
+	"type": "module",
+	"version": "1.0.1",
+	"description": "Build Typescript with esbuild + execute with node",
+	"bin": {
+		"ts-run": "./index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified :-x\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TehShrike/ts-run.git"
+	},
+	"keywords": [
+		"typescript",
+		"ts"
+	],
+	"author": "TehShrike",
+	"license": "WTFPL",
+	"bugs": {
+		"url": "https://github.com/TehShrike/ts-run/issues"
+	},
+	"homepage": "https://github.com/TehShrike/ts-run#readme",
+	"dependencies": {
+		"esbuild": "^0.17.18"
+	}
 }
