@@ -1,7 +1,7 @@
 {
   "name": "@tehshrike/ts-run",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build Typescript with esbuild + execute with node",
   "bin": "node index.js",
   "scripts": {
